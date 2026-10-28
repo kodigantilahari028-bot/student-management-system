@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Student Management System</h1>
+    <p>Manage student records easily</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Add a Student</h2>
+      <form id="student-form">
+        <label for="name">Student Name</label>
+        <input id="name" name="name" required placeholder="Enter student name">
+
+        <label for="age">Age</label>
+        <input id="age" name="age" type="number" min="1" max="120" required placeholder="Enter age">
+
+        <label for="course">Course</label>
+        <input id="course" name="course" required placeholder="Enter course">
+
+        <button type="submit">Add Student</button>
+        <p id="message" role="status"></p>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Student Records</h2>
+      <div id="student-list">Loading students...</div>
+    </section>
+  </main>
+
+  <footer>Student Management System | Node.js Project</footer>
+  <script src="app.js"></script>
+</body>
+</html>

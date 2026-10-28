@@ -1,0 +1,9 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "A simple Student Management System using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

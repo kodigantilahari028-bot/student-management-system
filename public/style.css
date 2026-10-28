@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+header {
+  background: #1d4ed8;
+  color: white;
+  text-align: center;
+  padding: 28px 16px;
+}
+
+main {
+  max-width: 850px;
+  margin: 28px auto;
+  padding: 0 16px;
+  display: grid;
+  gap: 22px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #00000012;
+}
+
+label {
+  display: block;
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 16px;
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: #1d4ed8;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.student {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.student p {
+  margin: 4px 0;
+}
+
+.delete {
+  background: #dc2626;
+  margin: 0;
+}
+
+#message {
+  color: #166534;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+}
+
+@media (max-width: 500px) {
+  .student {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
